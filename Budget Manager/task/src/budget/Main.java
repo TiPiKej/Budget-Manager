@@ -226,11 +226,25 @@ public class Main {
                     break;
                 case 2:
                     System.out.println("Types:");
-                    System.out.printf("Food - $%s\n", totalOf(1));
-                    System.out.printf("Entertainment - $%s\n", totalOf(2));
-                    System.out.printf("Clothes - $%s\n", totalOf(3));
-                    System.out.printf("Other - $%s\n", totalOf(4));
-                    System.out.printf("Total sum: $%s\n\n", totalOf(0));
+                    String[] total = {
+                        totalOf(0),
+                        totalOf(1),
+                        totalOf(2),
+                        totalOf(3),
+                        totalOf(4)
+                    };
+                    copyPurchases.put(Double.parseDouble(total[1]), String.format("Food - $%s\n", total[1]));
+                    copyPurchases.put(Double.parseDouble(total[2]), String.format("Clothes - $%s\n", total[2]));
+                    copyPurchases.put(Double.parseDouble(total[3]), String.format("Entertainment - $%s\n", total[3]));
+                    copyPurchases.put(Double.parseDouble(total[4]), String.format("Other - $%s\n", total[4]));
+
+                    for (Double copyPurchase : copyPurchases.keySet()) {
+                        for (String cp : copyPurchases.get(copyPurchase)) {
+                            System.out.print(cp);
+                        }
+                    }
+
+                    System.out.printf("Total sum: $%s\n\n", total[0]);
                     continue;
                 case 3:
                     type = menuPurchase();
@@ -291,9 +305,9 @@ public class Main {
 
             if (Integer.parseInt(purchase[2]) != option) continue;
 
-            total += Integer.parseInt(purchase[2]);
+            total += Double.parseDouble(purchase[1]);
         }
 
-        return total == 0 ? "0" : parseDouble(total);
+        return total == 0 ? "0" : parseDouble(String.format("%.2f", total));
     }
 }
