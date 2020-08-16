@@ -1,47 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="BudgetManagerTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2020-08-16T19:16:26" hostname="WIN10" time="0.19">
+<testsuite name="BudgetManagerTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2020-08-16T19:55:20" hostname="WIN10" time="0.19">
   <properties/>
   <testcase name="start" classname="BudgetManagerTest" time="0.19">
-    <failure message="java.lang.AssertionError: Wrong answer in test #7&#10;&#10;Your program sort all purchases wrong!&#10;Expected:&#10;Almond 250g $35.43&#10;Skate rental $30.00&#10;FIJI Natural Artesian Water $25.98&#10;Wrangler Men's Stretch Cargo Pant $19.97&#10;Sensodyne Pronamel Toothpaste $19.74&#10;Men's Dual Defense Crew Socks 12 Pairs $13.00&#10;LEGO DUPLO Town Farm Animals $10.10&#10;Chick-fil-A $10 Gift Card $10.00&#10;Cinema $8.73&#10;Gildan LT $8.61&#10;Hershey's milk chocolate bars $8.54&#10;Keystone Ground Bee $6.28&#10;Red Fuji Apple $5.99&#10;Eggs $3.99&#10;Milk $3.50&#10;Debt $3.50&#10;Great Value Broccoli Florets $1.00&#10;Your output:&#10;All:&#10;Almond 250g ; 1 ; $35.43&#10;Skate rental ; 3 ; $30.0&#10;FIJI Natural Artesian Water ; 1 ; $25.98&#10;Wrangler Men's Stretch Cargo Pant ; 2 ; $19.97&#10;Sensodyne Pronamel Toothpaste ; 4 ; $19.74&#10;Men's Dual Defense Crew Socks 12 Pairs ; 2 ; $13.0&#10;LEGO DUPLO Town Farm Animals ; 3 ; $10.1&#10;Chick-fil-A $10 Gift Card ; 4 ; $10.0&#10;Cinema ; 3 ; $8.73&#10;Gildan LT ; 2 ; $8.61&#10;Hershey's milk chocolate bars ; 1 ; $8.54&#10;Keystone Ground Bee ; 1 ; $6.28&#10;Red Fuji Apple ; 1 ; $5.99&#10;Eggs ; 1 ; $3.99&#10;Debt ; 4 ; $3.5&#10;Great Value Broccoli Florets ; 1 ; $1.0&#10;Total: $210.86&#10;&#10;Please find below the output of your program during this failed test.&#10;Note that the '&gt;' character indicates the beginning of the input line.&#10;&#10;---&#10;&#10;Choose your action:&#10;1) Add income&#10;2) Add purchase&#10;3) Show list of purchases&#10;4) Balance&#10;5) Save&#10;6) Load&#10;7) Analyze (Sort)&#10;0) Exit&#10;&gt; 7&#10;&#10;How do you want to sort?&#10;1) Sort all purchases&#10;2) Sort by type&#10;3) Sort certain type&#10;4) Back&#10;&gt; 1&#10;&#10;Purchase list is empty!&#10;&#10;How do you want to sort?&#10;1) Sort all purchases&#10;2) Sort by type&#10;3) Sort certain type&#10;4) Back&#10;&gt; 2&#10;&#10;Types:&#10;Food - $0&#10;Entertainment - $0&#10;Clothes - $0&#10;Other - $0&#10;Total sum: $0&#10;&#10;How do you want to sort?&#10;1) Sort all purchases&#10;2) Sort by type&#10;3) Sort certain type&#10;4) Back&#10;&gt; 3&#10;&#10;&#10;Choose the type of purchase&#10;1) Food&#10;2) Clothes&#10;3) Entertainment&#10;4) Other&#10;5) Back&#10;&gt; 4&#10;&#10;Purchase list is empty!&#10;&#10;How do you want to sort?&#10;1) Sort all purchases&#10;2) Sort by type&#10;3) Sort certain type&#10;4) Back&#10;&gt; 4&#10;&#10;&#10;Choose your action:&#10;1) Add income&#10;2) Add purchase&#10;3) Show list of purchases&#10;4) Balance&#10;5) Save&#10;6) Load&#10;7) Analyze (Sort)&#10;0) Exit&#10;&gt; 6&#10;&#10;Purchases were loaded!&#10;&#10;Choose your action:&#10;1) Add income&#10;2) Add purchase&#10;3) Show list of purchases&#10;4) Balance&#10;5) Save&#10;6) Load&#10;7) Analyze (Sort)&#10;0) Exit&#10;&gt; 7&#10;&#10;How do you want to sort?&#10;1) Sort all purchases&#10;2) Sort by type&#10;3) Sort certain type&#10;4) Back&#10;&gt; 1&#10;&#10;All:&#10;Almond 250g ; 1 ; $35.43&#10;Skate rental ; 3 ; $30.0&#10;FIJI Natural Artesian Water ; 1 ; $25.98&#10;Wrangler Men's Stretch Cargo Pant ; 2 ; $19.97&#10;Sensodyne Pronamel Toothpaste ; 4 ; $19.74&#10;Men's Dual Defense Crew Socks 12 Pairs ; 2 ; $13.0&#10;LEGO DUPLO Town Farm Animals ; 3 ; $10.1&#10;Chick-fil-A $10 Gift Card ; 4 ; $10.0&#10;Cinema ; 3 ; $8.73&#10;Gildan LT ; 2 ; $8.61&#10;Hershey's milk chocolate bars ; 1 ; $8.54&#10;Keystone Ground Bee ; 1 ; $6.28&#10;Red Fuji Apple ; 1 ; $5.99&#10;Eggs ; 1 ; $3.99&#10;Debt ; 4 ; $3.5&#10;Great Value Broccoli Florets ; 1 ; $1.0&#10;Total: $210.86&#10;&#10;How do you want to sort?&#10;1) Sort all purchases&#10;2) Sort by type&#10;3) Sort certain type&#10;4) Back&#10;&gt; 2&#10;&#10;Types:&#10;Food - $8.00&#10;Entertainment - $6.00&#10;Clothes - $9.00&#10;Other - $12.00&#10;Total sum: $214.36&#10;&#10;How do you want to sort?&#10;1) Sort all purchases&#10;2) Sort by type&#10;3) Sort certain type&#10;4) Back&#10;&gt; 3&#10;&#10;&#10;Choose the type of purchase&#10;1) Food&#10;2) Clothes&#10;3) Entertainment&#10;4) Other&#10;5) Back&#10;&gt; 1&#10;&#10;Food:&#10;Almond 250g $35.43&#10;FIJI Natural Artesian Water $25.98&#10;Hershey's milk chocolate bars $8.54&#10;Keystone Ground Bee $6.28&#10;Red Fuji Apple $5.99&#10;Eggs $3.99&#10;Milk $3.50&#10;Great Value Broccoli Florets $1.00&#10;Total: $90.71&#10;&#10;How do you want to sort?&#10;1) Sort all purchases&#10;2) Sort by type&#10;3) Sort certain type&#10;4) Back&#10;&gt; 4&#10;&#10;&#10;Choose your action:&#10;1) Add income&#10;2) Add purchase&#10;3) Show list of purchases&#10;4) Balance&#10;5) Save&#10;6) Load&#10;7) Analyze (Sort)&#10;0) Exit&#10;&gt; 0&#10;&#10;&#10;Bye!" type="java.lang.AssertionError">java.lang.AssertionError: Wrong answer in test #7
+    <failure message="java.lang.AssertionError: Wrong answer in test #7&#10;&#10;Your program sort by type wrong!&#10;Expected:&#10;Food - $90.71&#10;Entertainment - $48.83&#10;Clothes - $41.58&#10;Other - $33.24&#10;Your output:&#10;Types:&#10;Food - $8.00&#10;Entertainment - $6.00&#10;Clothes - $9.00&#10;Other - $12.00&#10;Total sum: $214.36&#10;&#10;Please find below the output of your program during this failed test.&#10;Note that the '&gt;' character indicates the beginning of the input line.&#10;&#10;---&#10;&#10;Choose your action:&#10;1) Add income&#10;2) Add purchase&#10;3) Show list of purchases&#10;4) Balance&#10;5) Save&#10;6) Load&#10;7) Analyze (Sort)&#10;0) Exit&#10;&gt; 7&#10;&#10;How do you want to sort?&#10;1) Sort all purchases&#10;2) Sort by type&#10;3) Sort certain type&#10;4) Back&#10;&gt; 1&#10;&#10;Purchase list is empty!&#10;&#10;How do you want to sort?&#10;1) Sort all purchases&#10;2) Sort by type&#10;3) Sort certain type&#10;4) Back&#10;&gt; 2&#10;&#10;Types:&#10;Food - $0&#10;Entertainment - $0&#10;Clothes - $0&#10;Other - $0&#10;Total sum: $0&#10;&#10;How do you want to sort?&#10;1) Sort all purchases&#10;2) Sort by type&#10;3) Sort certain type&#10;4) Back&#10;&gt; 3&#10;&#10;&#10;Choose the type of purchase&#10;1) Food&#10;2) Clothes&#10;3) Entertainment&#10;4) Other&#10;5) Back&#10;&gt; 4&#10;&#10;Purchase list is empty!&#10;&#10;How do you want to sort?&#10;1) Sort all purchases&#10;2) Sort by type&#10;3) Sort certain type&#10;4) Back&#10;&gt; 4&#10;&#10;&#10;Choose your action:&#10;1) Add income&#10;2) Add purchase&#10;3) Show list of purchases&#10;4) Balance&#10;5) Save&#10;6) Load&#10;7) Analyze (Sort)&#10;0) Exit&#10;&gt; 6&#10;&#10;Purchases were loaded!&#10;&#10;Choose your action:&#10;1) Add income&#10;2) Add purchase&#10;3) Show list of purchases&#10;4) Balance&#10;5) Save&#10;6) Load&#10;7) Analyze (Sort)&#10;0) Exit&#10;&gt; 7&#10;&#10;How do you want to sort?&#10;1) Sort all purchases&#10;2) Sort by type&#10;3) Sort certain type&#10;4) Back&#10;&gt; 1&#10;&#10;All:&#10;Almond 250g $35.43&#10;Skate rental $30.00&#10;FIJI Natural Artesian Water $25.98&#10;Wrangler Men's Stretch Cargo Pant $19.97&#10;Sensodyne Pronamel Toothpaste $19.74&#10;Men's Dual Defense Crew Socks 12 Pairs $13.00&#10;LEGO DUPLO Town Farm Animals $10.10&#10;Chick-fil-A $10 Gift Card $10.00&#10;Cinema $8.73&#10;Gildan LT $8.61&#10;Hershey's milk chocolate bars $8.54&#10;Keystone Ground Bee $6.28&#10;Red Fuji Apple $5.99&#10;Eggs $3.99&#10;Milk $3.50&#10;Debt $3.50&#10;Great Value Broccoli Florets $1.00&#10;Total: $214.36&#10;&#10;How do you want to sort?&#10;1) Sort all purchases&#10;2) Sort by type&#10;3) Sort certain type&#10;4) Back&#10;&gt; 2&#10;&#10;Types:&#10;Food - $8.00&#10;Entertainment - $6.00&#10;Clothes - $9.00&#10;Other - $12.00&#10;Total sum: $214.36&#10;&#10;How do you want to sort?&#10;1) Sort all purchases&#10;2) Sort by type&#10;3) Sort certain type&#10;4) Back&#10;&gt; 3&#10;&#10;&#10;Choose the type of purchase&#10;1) Food&#10;2) Clothes&#10;3) Entertainment&#10;4) Other&#10;5) Back&#10;&gt; 1&#10;&#10;Food:&#10;Almond 250g $35.43&#10;FIJI Natural Artesian Water $25.98&#10;Hershey's milk chocolate bars $8.54&#10;Keystone Ground Bee $6.28&#10;Red Fuji Apple $5.99&#10;Eggs $3.99&#10;Milk $3.50&#10;Great Value Broccoli Florets $1.00&#10;Total: $90.71&#10;&#10;How do you want to sort?&#10;1) Sort all purchases&#10;2) Sort by type&#10;3) Sort certain type&#10;4) Back&#10;&gt; 4&#10;&#10;&#10;Choose your action:&#10;1) Add income&#10;2) Add purchase&#10;3) Show list of purchases&#10;4) Balance&#10;5) Save&#10;6) Load&#10;7) Analyze (Sort)&#10;0) Exit&#10;&gt; 0&#10;&#10;&#10;Bye!" type="java.lang.AssertionError">java.lang.AssertionError: Wrong answer in test #7
 
-Your program sort all purchases wrong!
+Your program sort by type wrong!
 Expected:
-Almond 250g $35.43
-Skate rental $30.00
-FIJI Natural Artesian Water $25.98
-Wrangler Men's Stretch Cargo Pant $19.97
-Sensodyne Pronamel Toothpaste $19.74
-Men's Dual Defense Crew Socks 12 Pairs $13.00
-LEGO DUPLO Town Farm Animals $10.10
-Chick-fil-A $10 Gift Card $10.00
-Cinema $8.73
-Gildan LT $8.61
-Hershey's milk chocolate bars $8.54
-Keystone Ground Bee $6.28
-Red Fuji Apple $5.99
-Eggs $3.99
-Milk $3.50
-Debt $3.50
-Great Value Broccoli Florets $1.00
+Food - $90.71
+Entertainment - $48.83
+Clothes - $41.58
+Other - $33.24
 Your output:
-All:
-Almond 250g ; 1 ; $35.43
-Skate rental ; 3 ; $30.0
-FIJI Natural Artesian Water ; 1 ; $25.98
-Wrangler Men's Stretch Cargo Pant ; 2 ; $19.97
-Sensodyne Pronamel Toothpaste ; 4 ; $19.74
-Men's Dual Defense Crew Socks 12 Pairs ; 2 ; $13.0
-LEGO DUPLO Town Farm Animals ; 3 ; $10.1
-Chick-fil-A $10 Gift Card ; 4 ; $10.0
-Cinema ; 3 ; $8.73
-Gildan LT ; 2 ; $8.61
-Hershey's milk chocolate bars ; 1 ; $8.54
-Keystone Ground Bee ; 1 ; $6.28
-Red Fuji Apple ; 1 ; $5.99
-Eggs ; 1 ; $3.99
-Debt ; 4 ; $3.5
-Great Value Broccoli Florets ; 1 ; $1.0
-Total: $210.86
+Types:
+Food - $8.00
+Entertainment - $6.00
+Clothes - $9.00
+Other - $12.00
+Total sum: $214.36
 
 Please find below the output of your program during this failed test.
 Note that the '&gt;' character indicates the beginning of the input line.
@@ -140,23 +115,24 @@ How do you want to sort?
 &gt; 1
 
 All:
-Almond 250g ; 1 ; $35.43
-Skate rental ; 3 ; $30.0
-FIJI Natural Artesian Water ; 1 ; $25.98
-Wrangler Men's Stretch Cargo Pant ; 2 ; $19.97
-Sensodyne Pronamel Toothpaste ; 4 ; $19.74
-Men's Dual Defense Crew Socks 12 Pairs ; 2 ; $13.0
-LEGO DUPLO Town Farm Animals ; 3 ; $10.1
-Chick-fil-A $10 Gift Card ; 4 ; $10.0
-Cinema ; 3 ; $8.73
-Gildan LT ; 2 ; $8.61
-Hershey's milk chocolate bars ; 1 ; $8.54
-Keystone Ground Bee ; 1 ; $6.28
-Red Fuji Apple ; 1 ; $5.99
-Eggs ; 1 ; $3.99
-Debt ; 4 ; $3.5
-Great Value Broccoli Florets ; 1 ; $1.0
-Total: $210.86
+Almond 250g $35.43
+Skate rental $30.00
+FIJI Natural Artesian Water $25.98
+Wrangler Men's Stretch Cargo Pant $19.97
+Sensodyne Pronamel Toothpaste $19.74
+Men's Dual Defense Crew Socks 12 Pairs $13.00
+LEGO DUPLO Town Farm Animals $10.10
+Chick-fil-A $10 Gift Card $10.00
+Cinema $8.73
+Gildan LT $8.61
+Hershey's milk chocolate bars $8.54
+Keystone Ground Bee $6.28
+Red Fuji Apple $5.99
+Eggs $3.99
+Milk $3.50
+Debt $3.50
+Great Value Broccoli Florets $1.00
+Total: $214.36
 
 How do you want to sort?
 1) Sort all purchases
@@ -910,23 +886,24 @@ How do you want to sort?
 > 1
 
 All:
-Almond 250g ; 1 ; $35.43
-Skate rental ; 3 ; $30.0
-FIJI Natural Artesian Water ; 1 ; $25.98
-Wrangler Men's Stretch Cargo Pant ; 2 ; $19.97
-Sensodyne Pronamel Toothpaste ; 4 ; $19.74
-Men's Dual Defense Crew Socks 12 Pairs ; 2 ; $13.0
-LEGO DUPLO Town Farm Animals ; 3 ; $10.1
-Chick-fil-A $10 Gift Card ; 4 ; $10.0
-Cinema ; 3 ; $8.73
-Gildan LT ; 2 ; $8.61
-Hershey's milk chocolate bars ; 1 ; $8.54
-Keystone Ground Bee ; 1 ; $6.28
-Red Fuji Apple ; 1 ; $5.99
-Eggs ; 1 ; $3.99
-Debt ; 4 ; $3.5
-Great Value Broccoli Florets ; 1 ; $1.0
-Total: $210.86
+Almond 250g $35.43
+Skate rental $30.00
+FIJI Natural Artesian Water $25.98
+Wrangler Men's Stretch Cargo Pant $19.97
+Sensodyne Pronamel Toothpaste $19.74
+Men's Dual Defense Crew Socks 12 Pairs $13.00
+LEGO DUPLO Town Farm Animals $10.10
+Chick-fil-A $10 Gift Card $10.00
+Cinema $8.73
+Gildan LT $8.61
+Hershey's milk chocolate bars $8.54
+Keystone Ground Bee $6.28
+Red Fuji Apple $5.99
+Eggs $3.99
+Milk $3.50
+Debt $3.50
+Great Value Broccoli Florets $1.00
+Total: $214.36
 
 How do you want to sort?
 1) Sort all purchases

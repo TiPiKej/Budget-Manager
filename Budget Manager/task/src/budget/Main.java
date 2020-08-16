@@ -216,18 +216,12 @@ public class Main {
         int option = -1;
 
         while ((option = menuAnalyze()) != 4) {
-//            List<String> copyPurchases = new ArrayList<>();
-            SortedMap<Double, String> copyPurchases = new TreeMap<>(new Comparator<Double>() {
-                @Override
-                public int compare(Double s1, Double s2) {
-                    return s2.compareTo(s1);
-                }
-            });
+            MultiMap copyPurchases = new MultiMap();
             int type = -1;
             switch (option) {
                 case 1:
                     for (String[] purchase : purchases) {
-                        copyPurchases.put(Double.parseDouble(purchase[1]), String.format("%s $%s", purchase[0], purchase[1]));
+                        copyPurchases.put(Double.parseDouble(purchase[1]), String.format("%s $%s", purchase[0], parseDouble(purchase[1])));
                     }
                     break;
                 case 2:
@@ -275,9 +269,11 @@ public class Main {
 
             double total = 0.0;
 
-            for (String copyPurchase : copyPurchases.values()) {
-                System.out.println(copyPurchase);
-                total += Double.parseDouble(parseDouble(copyPurchase.split("\\$")[copyPurchase.split("\\$").length - 1]));
+            for (Double copyPurchase : copyPurchases.keySet()) {
+                for (String cp : copyPurchases.get(copyPurchase)) {
+                    System.out.println(cp);
+                    total += copyPurchase;
+                }
             }
 
             System.out.printf("Total: $%.2f\n\n", total);
